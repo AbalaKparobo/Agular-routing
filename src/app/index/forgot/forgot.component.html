@@ -1,1 +1,16 @@
-<p>forgot works!</p>
+<div class="column is-half">
+    <h1>Password Recovery</h1>
+    <div class="field">
+        <p class="control has-icons-right">
+          <input class="input" type="email" placeholder="Enter registered email" [(ngModel)]="postData.email">
+          <!-- <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span> -->
+          <!-- <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span> -->
+        </p>
+      </div>
+      <a class="button is-primary" (click)="loginAction()">Recover password</a>
+
+</div>

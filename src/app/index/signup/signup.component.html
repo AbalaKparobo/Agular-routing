@@ -1,1 +1,32 @@
-<p>signup works!</p>
+<div class="column is-half">
+    <h1>SignUp Form</h1>
+    <div class="field">
+        <p class="control has-icons-right">
+          <input class="input" type="email" placeholder="Email" [(ngModel)]="postData.email">
+          <!-- <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span> -->
+          <!-- <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span> -->
+        </p>
+      </div>
+      <div class="field">
+        <p class="control">
+          <input class="input" type="password" placeholder="Password" [(ngModel)]="postData.password">
+          <!-- <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+          </span> -->
+        </p>
+      </div>
+      <div class="field">
+        <p class="control">
+          <input class="input" type="password" placeholder="Re-enter Password">
+          <!-- <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+          </span> -->
+        </p>
+      </div>
+      <a class="button is-primary" >SignUp</a>
+
+</div>
